@@ -31,22 +31,12 @@ public class studentsArray {
             System.out.printf(names[nameChoice] + "'s favorite food is " + favFood[nameChoice] + ". Would you like to know more about them (enter \"age\" or \"no\"?) \n");
 
 //            } else if (ageChoice.equals("age")) {
-                    System.out.printf(names[nameChoice] + "'s favorite food is " + age[nameChoice] + ". Would you like to know more about them (enter \"age\" or \"no\"?) \n");
+            System.out.printf(names[nameChoice] + "'s favorite food is " + age[nameChoice] + ". Would you like to know more about them (enter \"age\" or \"no\"?) \n");
 
         } else {
-                    System.out.println("done");
-                }
-
-//            for (int i = 0; i < names.length; i++) {
-//                System.out.printf("Student name: %s \t|\t Jersey number: %d", names[i], jerseyNum[i]);
-//
-//                for (int i = 0; i < names.length; i++) {
-//                    System.out.printf("Student name: %s \t|\t Jersey number: %d", names[i], jerseyNum[i]);
-//
-//                    for (int i = 0; i < names.length; i++) {
-//                        System.out.printf("Student name: %s \t|\t Jersey number: %d", names[i], jerseyNum[i]);
-//
-//                        for (int i = 0; i < names.length; i++) {
-//                            System.out.printf("Student name: %s \t|\t Jersey number: %d", names[i], jerseyNum[i]);
-                }
-            }
+            System.out.println("done");
+        }
+        //todo: finish lab to run fully
+        //todo: include exceptions
+    }
+}
